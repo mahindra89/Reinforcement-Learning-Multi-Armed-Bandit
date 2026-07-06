@@ -72,10 +72,17 @@ the strongest option.
 .
 ├── app.py          # Streamlit interface
 ├── bandit_lab.py   # Reusable simulation logic
+├── original/       # Preserved original coursework-style version
 ├── rla1-2.py       # Original experiment script
 ├── requirements.txt
+├── TRANSFORMATION.md
 └── README.md
 ```
+
+## Original Version
+
+The original coursework-style README and script are preserved in `original/`.
+See `TRANSFORMATION.md` for a short before/after explanation of what changed.
 
 ## Run Locally
 
