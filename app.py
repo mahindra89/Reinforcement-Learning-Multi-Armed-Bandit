@@ -1,7 +1,7 @@
 import pandas as pd
 import streamlit as st
 
-from bandit_lab import (
+from bandit_simulator import (
     DEFAULT_ARMS,
     arm_table,
     compare_strategies,
@@ -10,11 +10,11 @@ from bandit_lab import (
 
 
 st.set_page_config(
-    page_title="Bandit Strategy Lab",
+    page_title="Bandit Strategy Simulator",
     layout="wide",
 )
 
-st.title("Bandit Strategy Lab")
+st.title("Bandit Strategy Simulator")
 st.caption(
     "Explore how epsilon-greedy and UCB balance exploration and exploitation "
     "when rewards come from Gamma-distributed arms."

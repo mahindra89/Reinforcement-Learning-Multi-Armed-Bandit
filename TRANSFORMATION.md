@@ -9,7 +9,7 @@ This repository now keeps both versions of the project:
 
 | Area | Original version | Portfolio version |
 |---|---|---|
-| Framing | Homework assignment | Interactive decision-systems lab |
+| Framing | Homework assignment | Interactive decision-systems simulator |
 | Interface | Static Python/Colab script | Streamlit web app |
 | Code organization | One script with plotting and simulation together | Reusable simulation module plus app UI |
 | User control | Fixed experiment settings | Sliders for steps, epsilon, UCB confidence, seed, and arm setup |
@@ -21,7 +21,7 @@ This repository now keeps both versions of the project:
 - Original script: `original/rla1-2.py`
 - Portfolio README: `README.md`
 - Interactive app: `app.py`
-- Reusable simulation logic: `bandit_lab.py`
+- Reusable simulation logic: `bandit_simulator.py`
 
 The goal was not to hide the academic origin. The goal was to preserve it as
 source material and wrap the same reinforcement learning idea in a cleaner,

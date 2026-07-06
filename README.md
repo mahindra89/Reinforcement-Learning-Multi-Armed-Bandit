@@ -1,5 +1,5 @@
 ---
-title: Bandit Strategy Lab
+title: Bandit Strategy Simulator
 colorFrom: blue
 colorTo: green
 sdk: streamlit
@@ -8,14 +8,14 @@ app_file: app.py
 pinned: false
 ---
 
-# Bandit Strategy Lab
+# Bandit Strategy Simulator
 
 An interactive reinforcement learning demo for studying exploration versus
 exploitation in stochastic reward environments.
 
 The app compares **epsilon-greedy** and **Upper Confidence Bound (UCB)** on a
 multi-armed bandit problem where each arm pays rewards from a Gamma
-distribution. It turns a static experiment into a small decision-systems lab:
+distribution. It turns a static experiment into a small decision-systems simulator:
 change the number of steps, exploration rate, UCB confidence bonus, random
 seed, and reward setup, then watch how the strategies behave.
 
@@ -46,7 +46,7 @@ uncertain options, or exploit the option that currently looks best.
 - Running average reward chart
 - Optimal-action selection chart
 - Arm pull-count comparison
-- Reusable simulation code in `bandit_lab.py`
+- Reusable simulation code in `bandit_simulator.py`
 
 ## Strategies Compared
 
@@ -71,7 +71,7 @@ the strongest option.
 ```text
 .
 ├── app.py          # Streamlit interface
-├── bandit_lab.py   # Reusable simulation logic
+├── bandit_simulator.py   # Reusable simulation logic
 ├── original/       # Preserved original coursework-style version
 ├── rla1-2.py       # Original experiment script
 ├── requirements.txt
